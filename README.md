@@ -4,3 +4,30 @@ Image retargeting is the process of pasting the content of an image of certain s
 In this project, seam carving is implemented using dynamic programming and the OpenCV library.
 
 Programming Language : C++ with OpenCv Library
+
+
+Prerequisites:
+
+cmake, opencv
+
+
+To compile in the lab
+——————————
+
+run ./lab_config.sh
+cd build
+make
+
+To compile on your own machine
+———
+
+cd build/
+cmake ../
+make
+
+
+To run
+——
+
+In the build folder:
+./sc image1 new_width new_height image2
